@@ -39,8 +39,3 @@ export default function List({ current, related, productID, setProductID, switch
     </>
   );
 }
-
-List.propTypes = {
-  current: PropTypes.shape({}).isRequired,
-
-};

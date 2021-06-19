@@ -95,5 +95,4 @@ export default function Related({ productID, setProductID }) {
 Related.propTypes = {
   productID: PropTypes.number.isRequired,
   setProductID: PropTypes.func.isRequired,
-
 };
