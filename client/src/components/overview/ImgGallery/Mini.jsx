@@ -18,6 +18,7 @@ const ThumbnailBox = styled.div`
   margin: 17% 0%;
   &:hover {
     cursor: pointer;
+    box-shadow: 0px 0px 10px 0px #494D59;
   }
 `;
 

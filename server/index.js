@@ -113,6 +113,8 @@ app.get('/reviews/meta/:product_id', (req, res) => {
     });
 });
 
+// Reviews – create new review
+
 // ***********************************************************************
 // Q&A API Calls
 app.get('/qa/questions/:product_id', (req, res) => {
@@ -142,6 +144,16 @@ app.get('/qa/questions/:question_id/answers', (req, res) => {
       res.status(500).send(error);
     });
 });
+
+app.post('/qa/questions/:question_id/answers', (req, res) => {
+  axios({
+    url: `${API}/qa/questions/${req.params.question_id}/answers`,
+    method: 'POST',
+    headers: { Authorization: APIInfo.token },
+  })
+    .then(res.status(201).send('Status: 201 CREATED'));
+});
+
 // CART API Calls
 app.get('/cart', (req, res) => {
   axios({

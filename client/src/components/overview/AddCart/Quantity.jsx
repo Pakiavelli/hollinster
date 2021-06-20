@@ -12,7 +12,6 @@ const QuantityBox = styled.div`
     background-color: rgba(0, 0, 0, 0.14);
     cursor: pointer;
   }
-
 `;
 
 const ContainerQ = styled.div`
@@ -34,7 +33,8 @@ const QuantHeader = styled.li`
 const QuantityDropDown = styled.div`
   border: 1px solid black;
   padding: 0;
-  margin-top: 17%;
+  margin-top: 25%;
+  right: 30%;
   z-index: 2;
   background-color: #F5F4F2;
   border: 1px solid rgba(0, 0, 0, 0.04);

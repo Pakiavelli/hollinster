@@ -5,19 +5,12 @@ import { sampleQuestionsList } from './sampleData.js';
 import AddAnswerForm from './AddAnswerForm.jsx';
 
 const IndividualQuestionRow = styled.div`
-
 `;
 
 export default function IndividualQuestion(props) {
-  console.log('this is props in individual question:', props);
   const question = props.question.question_body;
   const [helpfulness, setHelpfulness] = useState(props.question.question_helpfulness);
   const [yesClicked, toggleClicked] = useState(false);
-
-  // console.log('sample questions:', sampleQuestionsList.results[0]);
-  // console.log('answer text area:', answerText);
-  // console.log('helpfulness:', helpfulness);
-  // console.log('clicked:', yesClicked);
   // need to modify this handleYesClick function to something that interacts with API
   const handleYesClick = () => {
     if (!yesClicked) {

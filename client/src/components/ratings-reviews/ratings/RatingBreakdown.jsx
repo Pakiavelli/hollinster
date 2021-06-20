@@ -20,7 +20,7 @@ class RatingBreakdown extends React.Component {
 
     const getRatingItems = ratingItemsArray.map((item) => {
       return (
-        <p>{`${item[0]}: ${Number(item[1].value).toFixed(1)}`}</p>
+        <p key={item[1].id}>{`${item[0]}: ${Number(item[1].value).toFixed(1)}`} </p>
       );
     });
 

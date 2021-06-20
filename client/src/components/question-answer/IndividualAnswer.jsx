@@ -18,7 +18,6 @@ export default function IndividualAnswer(props) {
   Object.keys(props.answers).forEach((answerID) => listOfAnswers.push(props.answers[answerID]));
   const [amountOfAnswers, setAmountOfAnswers] = useState(2);
   const visibleAnswers = listOfAnswers.slice(0, amountOfAnswers);
-  console.log('visible answers in individual answers:', visibleAnswers);
   const [answerHelpfulnessClicked, setAnswerHelpfulnessClicked] = useState(false);
   const [reported, setReported] = useState('Report');
 

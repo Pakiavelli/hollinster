@@ -7,6 +7,7 @@ const StarBox = styled.div`
   padding: 3.4% 4%;
   text-align: center;
   width: 5%;
+  height: 45%;
   &:hover {
     cursor: pointer;
     color: rgb(255,196,12);

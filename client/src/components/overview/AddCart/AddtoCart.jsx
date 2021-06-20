@@ -5,7 +5,7 @@ import axios from 'axios';
 
 const AddtoBag = styled.div`
   width: 80%;
-  height: 100%;
+  height: 90%;
   &:hover {
     background-color: rgba(0, 0, 0, 0.14);
     cursor: pointer;
@@ -42,8 +42,7 @@ function AddtoCart({
       axios.post('/cart', { sku_id: currentSize, count: selectedQ })
         .then(() => {
         })
-        .catch((error) => {
-          console.error(error);
+        .catch(() => {
         });
     }
   };

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import Mini from './Mini.jsx'
+import Mini from './Mini.jsx';
 
 const ThumbnailsBox = styled.div`
   margin-right: 10%;
@@ -11,11 +11,17 @@ const UpButton = styled.img`
   font-size: 30px;
   margin: 10% 43%;
   width: 20%;
+  &:hover {
+    cursor: pointer;
+  }
 `;
 const DownButton = styled.img`
   font-size: 30px;
   margin: 10% 43%;
   width: 20%;
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 function Minis(props) {

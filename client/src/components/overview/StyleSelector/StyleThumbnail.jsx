@@ -16,6 +16,7 @@ const StylePhoto = styled.img`
   margin: 8px;
   &:hover {
     cursor: pointer;
+    box-shadow: 0px 0px 10px 0px #494D59;
   }
 `;
 
