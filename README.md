@@ -10,7 +10,7 @@
     <li><a href="#Acknowledgements">Acknowledgements</a></li>
 </ol>
 ## Summary
-Project Catwalk is a client-facing retail web application, which consists of Product Overview, , Related Items & Comparison, Questions & Answers, Ratings & Reviews. This project was built out using React based on business requirements sent by client. 
+Project Catwalk is a client-facing retail web application, which consists of Product Overview, Related Items & Comparison, Questions & Answers, and Ratings & Reviews. This project was built out using React based on business requirements sent by client. 
 
 ## Prerequisites
 ```sh
